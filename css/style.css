@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000029;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #0A0A23;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección Hero */
+.hero {
+    padding: 150px 20px 50px;
+    color: black; /* Cambiar el color del texto a negro */
+    background-color: white; /* Asegurar que el fondo sea blanco */
+    z-index: 10; /* Asegurar que el z-index sea adecuado */
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 96px; 
+    margin-top: 10px; 
+    color: black; /* Cambiar el color del texto a negro */
+    margin-bottom: 5px; /* Reducir el margen inferior */
+}
+
+.hero h2 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 48px; 
+    margin-bottom: 5px; /* Reducir el margen inferior */
+    color: black; /* Cambiar el color del texto a negro */
+    margin-top: 0; /* Reducir el margen superior */
+}
+
+/* Sección Video */
+.video {
+    background-color: #000029;
+    padding: 50px 0;
+}
+
+.video iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* Sección Proyectos */
+.projects, .fiction, .about, .contact {
+    padding: 100px 20px;
+    color: white;
+}
+
+.projects h1, .fiction h1, .about h1, .contact h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.project-category {
+    background-color: #0A0A23;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.project-category h2 {
+    margin-bottom: 10px;
+}
+
+.project-thumbnail iframe {
+    width: 100%;
+    height: 315px;
+    max-width: 560px;
+}
