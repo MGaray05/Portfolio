@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--primary-bg);
+    color: var(--white);
+    text-align: center;
+}
+
+.logo {
+    height: var(--logo-height);
+    width: auto;
+}

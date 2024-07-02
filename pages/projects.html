@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects</title>
+        <meta name="description" content="Explore a collection of my projects, including events, fiction, branding, and social networks.">
+        <meta name="keywords" content="projects, events, fiction, branding, social networks">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
 <body>
+    <!-- Header Section -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="../index.html"><img src="../assets/Logo MG studios.png" alt="Logo" class="logo"></a>
@@ -16,36 +19,52 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Get in touch</a></li>
+                    <!-- Projects Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <a class="dropdown-item" href="#">All Projects</a>
+                            <a class="dropdown-item" href="./fiction.html">Fiction</a>
+                        </div>
+                    </li>
+                    <!-- About Link -->
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <!-- Contact Link -->
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Get in touch</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    
+    <!-- Main Content -->
     <main>
+        <!-- Projects Section -->
         <section class="projects mt-5 pt-5">
             <div class="container">
                 <h1 class="text-center">Projects</h1>
                 <div class="row">
+                    <!-- Events Category -->
                     <div class="col-12 col-md-6 project-category">
                         <h2>Events</h2>
                         <div class="project-thumbnail">
                             <iframe width="100%" height="315" src="https://player.vimeo.com/video/875311635?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe>
                         </div>
                     </div>
+                    <!-- Fiction Category -->
                     <div class="col-12 col-md-6 project-category">
                         <h2>Fiction</h2>
                         <div class="project-thumbnail">
                             <iframe width="100%" height="315" src="https://player.vimeo.com/video/926847007?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe>
                         </div>
                     </div>
+                    <!-- Branding Category -->
                     <div class="col-12 col-md-6 project-category">
                         <h2>Branding</h2>
                         <div class="project-thumbnail">
                             <iframe width="100%" height="315" src="https://player.vimeo.com/video/926881282?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe>
                         </div>
                     </div>
+                    <!-- Social Networks Category -->
                     <div class="col-12 col-md-6 project-category">
                         <h2>Social Networks</h2>
                         <div class="project-thumbnail">
@@ -56,6 +75,8 @@
             </div>
         </section>
     </main>
+    
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

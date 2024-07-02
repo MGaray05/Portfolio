@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me</title>
+        <meta name="description" content="Get in touch with me for collaborations, projects, or inquiries about my work in audiovisual communication.">
+        <meta name="keywords" content="contact, collaboration, inquiries, audiovisual communication">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="../index.html"><img src="../assets/Logo MG studios.png" alt="Logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Projects Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <a class="dropdown-item" href="./projects.html">All Projects</a>
+                            <a class="dropdown-item" href="./fiction.html">Fiction</a>
+                        </div>
+                    </li>
+                    <!-- About Link -->
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <!-- Contact Link -->
+                    <li class="nav-item"><a class="nav-link" href="#">Get in touch</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="mt-5 pt-5">
+        <!-- Contact Section -->
+        <section class="contact container mt-5 pt-5">
+            <h1>Contact me</h1>
+            <form action="submit_form.php" method="post" class="mt-4">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your name" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your email" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your message" required class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.projects {
+    padding: 100px 20px;
+    color: var(--white);
+}
+
+.projects h1 {
+    font-family: var(--hero-font);
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.project-category {
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.project-category h2 {
+    margin-bottom: 10px;
+}
+
+.project-thumbnail iframe {
+    width: 100%;
+    height: 315px;
+    max-width: 560px;
+}
